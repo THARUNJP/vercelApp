@@ -8,8 +8,8 @@
     ],
     "rewrites": [
       {
-        "source": "/(.*)",
-        "destination":"/"
+        "source": "/((?!.*\\.(?:js|css|png|jpg|jpeg|gif|svg|ico|json|woff2|ttf|map)).*)",
+        "destination": "/index.html"
       }
     ]
   }
